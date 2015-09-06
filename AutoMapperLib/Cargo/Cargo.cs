@@ -37,13 +37,13 @@ namespace AutoMapperLib.Cargo
 		public virtual RouteSpecification RouteSpecification
 		{
 			get { return _routeSpecification; }
-			set { _routeSpecification = value; }
+			//set { _routeSpecification = value; }
 		}
 
 		public virtual string TrackingId
 		{
 			get { return _trackingId; }
-			set { _trackingId = value; }
+		//	set { _trackingId = value; }
 		}
 
 		protected bool Equals(Cargo other)

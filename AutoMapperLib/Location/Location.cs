@@ -41,13 +41,13 @@ namespace AutoMapperLib.Location
 		public virtual string Name
 		{
 			get { return _name; }
-			set { _name = value; }
+			//set { _name = value; }
 		}
 
 		public virtual string UnLocode
 		{
 			get { return _unLocode; }
-			set { _unLocode = value; }
+			//set { _unLocode = value; }
 		}
 
 		private bool IsValidUnLoCode(string unLocode)

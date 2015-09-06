@@ -20,19 +20,19 @@ namespace AutoMapperLib.Cargo
 		public DateTime ArrivalDeadline
 		{
 			get { return _arrivalDeadline; }
-			set { _arrivalDeadline = value; }
+		//	set { _arrivalDeadline = value; }
 		}
 
 		public Location.Location Destination
 		{
 			get { return _destination; }
-			set { _destination = value; }
+		//	set { _destination = value; }
 		}
 
 		public Location.Location Origin
 		{
 			get { return _origin; }
-			set { _origin = value; }
+		//	set { _origin = value; }
 		}
 
 		private DateTime _arrivalDeadline;
