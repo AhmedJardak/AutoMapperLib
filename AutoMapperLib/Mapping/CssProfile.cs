@@ -5,7 +5,6 @@ namespace AutoMapperLib.Mapping
 {
 	public class CssProfile : Profile
 	{
-
 		protected override void Configure()
 		{
 			Mapper.CreateMap<Cargo.Cargo, CargoViewModel>().ReverseMap();

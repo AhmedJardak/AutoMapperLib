@@ -56,6 +56,9 @@ namespace AutoMapperLib.Tests
 			Assert.That(actual, Is.EqualTo(cargo));
 			Mapper.AssertConfigurationIsValid("CssProfile");
 			
+
+
+
 		}
 	}
 }
